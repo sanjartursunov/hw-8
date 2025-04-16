@@ -1,0 +1,120 @@
+nav {
+    width: 100%;
+    display: flex;
+    padding: 1rem 0;
+    gap: 2rem;
+}
+
+.nav-menu {
+    display: flex;
+    flex: 1;
+}
+
+.nav-menu ul {
+    flex-direction: row;
+    align-items: center;
+    flex: 1;
+    gap: 1rem;
+    justify-content: space-between;
+}
+
+.nav-menu ul li a {
+    color: rgba(0, 0, 0, 1);;
+    font-size: 0.9rem;
+}
+
+.contacts {
+    display: flex;
+    align-items: center;
+    gap: 1.4rem;
+}
+
+.contact-icons {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.tel-number {
+    display: flex;
+    flex-direction: column;
+}
+
+.tel-number a {    
+    color: rgba(0, 0, 0, 1);
+    font-size: 0.9rem;
+}
+
+
+/* logo yasash */
+
+:root {
+    --qizil1: 3rem; /* logo o'lchami */
+    --oq1: calc(3 * 0.35rem); /* 4*0.35 */
+    --chegara: calc(3 * 0.1rem); /* 4*0.1 */
+    --chegara-top: 0.45rem;
+}
+
+.nav-css {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: var(--qizil1);
+    height: var(--qizil1);
+    background-color: red;
+    padding: 0.3rem;
+}
+
+.white-css {
+    width: 0;
+    height: 0;
+    background-color: transparent;
+    border: var(--oq1)  solid transparent;
+    position: absolute;
+}
+
+.nav-css .logo-1 {
+    top: var(--chegara);    
+    border-top: var(--oq1) solid white;
+}
+
+.nav-css .logo-2 {
+    top: var(--chegara-top);    
+    border-right: var(--oq1) solid white;
+    right: var(--chegara);
+}
+
+.nav-css .logo-3 {
+    bottom: var(--chegara);    
+    border-bottom: var(--oq1) solid white;
+}
+
+.nav-css .logo-4 {
+    top: var(--chegara-top);    
+    border-left: var(--oq1) solid white;
+    left: var(--chegara);
+}
+
+.logo-5 {
+    position: absolute;
+    height: var(--chegara);
+    width: 100%;
+    background-color: inherit;
+}
+.logo-6 {
+    position: absolute;
+    height: var(--chegara);
+    width: 50%;
+    background-color: inherit;
+    top: calc(var(--chegara) * 2);
+}
+
+.logo-7 {
+    position: absolute;
+    height: var(--chegara);
+    width: 50%;
+    background-color: inherit;
+    bottom: calc(var(--chegara) * 2);
+}
+
+

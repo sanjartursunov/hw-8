@@ -1,0 +1,53 @@
+.car-obzor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 4rem 1rem;
+    width: 100%;
+    background-color: #f4f6f8;
+    gap: 1.5rem;
+}
+
+.car-obzor ul {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: 2fr 3fr 2fr;
+}
+
+.car-obzor ul li {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.car-obzor ul li img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.telegram-kontact {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+}
+
+.telegram-kontact img {
+    width: 100%;
+}
+
+.telegram-kontact div p {
+    font-size: 2rem;
+    line-height: 2.5rem;
+    font-weight: 900;
+}
+
+.telegram-channel {
+    color: red;
+}
+
+.telegram-kontact button {
+    margin-top: 2rem;
+    font-size: 0.8rem;
+}
